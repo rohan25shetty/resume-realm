@@ -212,7 +212,7 @@ function removeWe()
         {
             var windowH=window.innerHeight;
             var revealtop=reveals[i].getBoundingClientRect().top;
-            var revealpoint=50;
+            var revealpoint=30;
     
             if(revealtop<windowH-revealpoint){
                 reveals[i].classList.add("rev");
