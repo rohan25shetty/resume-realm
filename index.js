@@ -146,13 +146,13 @@ function removeWe()
     
     // work exprience
     let wes = document.getElementsByClassName("weField");
-    console.log("Number of elements with class 'weField':", wes.length);
+    // console.log("Number of elements with class 'weField':", wes.length);
     let str = '';
     for (let e of wes) {
         console.log("Value of element:", e.value);
         str = str + `<li> ${e.value} </li>`;
     }
-    console.log("Resulting HTML string:", str);
+    // console.log("Resulting HTML string:", str);
     
     document.getElementById("weT").innerHTML = str;
     
